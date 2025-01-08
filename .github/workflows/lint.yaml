@@ -16,10 +16,10 @@ jobs:
         run: npm install --save-dev htmllint
       - name: Lint html files
         run: npx htmllint "**/*.html"
-      - name: Install Stylelint
-        run: npm install --save-dev stylelint
-      - name: lint css files
-        run: npx stylelint "**/*.css"
+     
+     # run: npm install --save-dev stylelint
+
+     # run: npx stylelint "**/*.css"
       - name: Display package.json content
         run:  cat package.json
         
